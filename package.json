@@ -1,0 +1,41 @@
+{
+  "name": "js-sdk-guest-call-sharing",
+  "version": "0.0.1",
+  "description": "Webex SDK SDK Guest Single Call with sharing sample",
+  "main": "./server/index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "dev:client": "parcel watch client/index.html client/connect.html --out-dir dist/client",
+    "dev:server": "nodemon --watch ./server --exec node ./server/index.js",
+    "dev:client:solution": "parcel watch solution/client/index.html solution/client/connect.html --out-dir dist/client",
+    "dev:server:solution": "nodemon --watch ./solution/server --exec node ./solution/server/index.js",
+    "start": "npm run dev:server & npm run dev:client",
+    "start:solution": "npm run dev:server:solution & npm run dev:client:solution",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "heroku"
+  ],
+  "author": "Gerardo Chaves <gchaves@cisco.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "@momentum-ui/core": "^19.0.8",
+    "cisco-ui": "git+https://github.com/CiscoDevNet/CiscoUIKit.git",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^3.3.3",
+    "parcel-bundler": "^1.12.4",
+    "webex": "^1.80.65"
+  }
+}
