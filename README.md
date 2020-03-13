@@ -13,7 +13,7 @@ This sample is focused on connecting a customer to an expert, so the call is ini
 - Clone this git repository with:
 
 ```bash
-git clone https://github.cisco.com/gve-sw/WebexJSSDKGuestSingleCallSharingSample.git
+git clone https://www.github.com/gve-sw/WebexJSSDKGuestSingleCallSharingSample.git
 ```
 
 - Change into the repository directory:
