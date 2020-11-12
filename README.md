@@ -1,3 +1,8 @@
+# NOTE
+
+As of November 2020, there is now a version of this sample code that uses Flask for the back end instead of node.js so there is no need to use parcel. The use of the Cisco UI Kit has also been optimized. Further enhancements will be performed on that repository:  
+https://github.com/gve-sw/GVE_Devnet_Webex_Meeting_Custom_Guest_Join_Call
+
 # Webex JS SDK Guest Single Call with sharing sample
 
 Welcome to the Webex JS SDK Guest Single Call with sharing sample
